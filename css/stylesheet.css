@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial;
     font-size: 110%;
     background-color: #FCF7F8;
     display: flex;
@@ -7,10 +7,10 @@ body {
 }
 
 #profilePhoto{
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
+  border: 3px solid rgb(144, 144, 144);
   border-radius: 50%;
-  border: 3px solid rgb(63, 63, 63);
 
 }
 
@@ -27,6 +27,7 @@ header {
 }
 
 #sidebar {
+  text-transform: uppercase;
   background-color: rgb(209, 226, 233);
   padding: 1rem;
 }
@@ -47,8 +48,8 @@ footer {
     text-align: center;
 }
 .icons {
-    width: 3rem;
-    margin: 0.5rem;
+    width: 4rem;
+    margin: 1rem;
     height: auto;
 }
 
